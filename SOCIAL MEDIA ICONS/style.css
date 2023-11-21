@@ -1,0 +1,161 @@
+html,body
+{
+
+margin:0;
+padding:0;
+align-items: center;
+justify-content: center;
+height:100%;
+background: rgb(40, 38, 38);
+
+}
+.container
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    
+
+}
+
+
+.btn
+
+{
+
+height:70px;
+width:55px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 1em;
+margin-right: 2em;
+background-color: white;
+cursor: pointer;
+transition:all 0.3s;
+
+border-radius: 10px;
+animation: animate 4s linear infinite;
+
+}
+
+i.fa
+{
+
+font-size: 44px;
+
+}
+
+#fb
+{
+
+color:#006fff;
+
+
+}
+
+#fb:hover
+{
+
+    text-shadow: 0 0 40px #006fff;
+    
+
+}
+
+#ig
+{
+
+color:rgb(225, 16, 141);
+
+}
+
+#ig:hover
+{
+
+    text-shadow: 0 0 40px rgb(225, 16, 141);
+
+}
+
+
+#tw
+{
+
+color:rgb(17, 17, 199);
+
+}
+
+#tw:hover
+{
+
+    text-shadow: 0 0 40px rgb(17, 17, 199);
+
+}
+
+#gt
+{
+
+color:rgb(3, 3, 15);
+
+}
+
+#gt:hover
+{
+
+    text-shadow: 0 0 40px rgb(3, 3, 14);
+
+}
+
+#yt
+{
+
+color:rgb(239, 10, 10);
+
+}
+
+#yt:hover
+{
+
+    text-shadow: 0 0 40px rgb(239, 10, 10);
+
+}
+
+
+
+@keyframes animate
+
+{
+
+ 0%{ box-shadow: 0px 0px 40px skyblue;
+ }
+
+
+ 10%{ box-shadow: 0px 0px 40px blue;
+ }
+ 20%{ box-shadow: 0px 0px 40px rgb(180, 64, 84);
+
+ }
+
+ 30%{ box-shadow: 0px 0px 40px rgb(255, 0, 0);
+ }
+
+ 40%{ box-shadow: 0px 0px 40px rgb(0, 251, 255);
+ }
+ 50%{ box-shadow: 0px 0px 40px rgb(0, 255, 85);
+ }
+
+ 60%{ box-shadow: 0px 0px 40px rgb(217, 255, 0);
+ }
+ 70%{ box-shadow: 0px 0px 40px rgb(255, 183, 0);
+
+}
+80%{ box-shadow: 0px 0px 40px rgb(255, 38, 0);
+}
+90%{ box-shadow: 0px 0px 40px rgb(255, 0, 162);
+}
+100%{ box-shadow: 0px 0px 40px rgb(0, 255, 102);
+}
+
+}
+ 

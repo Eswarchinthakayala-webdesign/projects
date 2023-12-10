@@ -1,0 +1,35 @@
+body {
+
+    background-color: rgb(74, 72, 72);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid goldenrod;
+
+    width: 500px;
+
+    padding: 2rem;
+    margin-left: 30rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+
+}
+
+
+
+table,
+tr,
+th,
+td,
+caption {
+
+    border: 2px solid rgb(30, 186, 229);
+
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5em
+}

@@ -1,0 +1,558 @@
+Skip to content
+192210671
+/
+html-css
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+Commit
+Create diwaliwishes.html
+html {
+    background-size: cover;
+    background: linear-gradient(#000, #333);
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.container {
+    width: 100px;
+    float: left;
+    padding: 1rem;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation: move-up 2s forwards 10s;
+    margin: 0 auto;
+}
+.box:after {
+    width: 1px;
+    content: "";
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    animation: fadeout 1s forwards;
+    animation-delay: 1s;
+}
+.box.m3 {
+    animation: move-up-3 2s forwards;
+}
+.box.m3 {
+    animation: move-up-2 2s forwards;
+}
+.cracker.solid {
+    border: solid red 1px;
+}
+.cracker.dotted {
+    border: dotted blue 10px;
+}
+.cracker {
+    position: absolute;
+    border: dashed orange 2px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    animation: burst 6s 1 2s;
+}
+.a1 {
+    animation-duration: 4s;
+}
+.d1 {
+    animation-delay: 5s;
+}
+.a2 {
+    animation-duration: 2s;
+}
+.d2 {
+    animation-delay: 8s;
+}
+.a3 {
+    animation-duration: 3s;
+}
+.d3 {
+    animation-delay: 12s;
+}
+.a4 {
+    animation-duration: 1s;
+}
+.d4 {
+    animation-delay: 15s;
+}
+.m1 {
+    animation-delay: 100ms;
+}
+.m2 {
+    animation-delay: 300ms;
+}
+.m3 {
+    animation-delay: 600ms;
+}
+@Keyframes move-up {
+    0% {
+        transform: translateZ(500px);
+        color:lightsalmon;
+   }
+    50% {
+        transform: translateY(500px);
+        color:yellow;
+   }
+    100% {
+        transform: translateX(100px);
+        color:orange;
+   }
+}
+@Keyframes move-up-2 {
+    0% {
+        transform: translateY(500px);
+   }
+    50% {
+        transform: translateY(500px);
+   }
+    100% {
+        transform: translateY(150px);
+   }
+}
+@Keyframes move-up-3 {
+    0% {
+        transform: translateY(500px);
+   }
+    50% {
+        transform: translateY(500px);
+   }
+    100% {
+        transform: translateY(220px);
+   }
+}
+@Keyframes fadeout {
+    0% {
+        background: rgba(255, 250, 255, .8);
+   }
+    50% {
+        background: rgba(251, 250, 255, .8);
+        height: 100px;
+   }
+    100% {
+        background: rgba(0, 0, 0, 0);
+        height: 120px;
+   }
+}
+@Keyframes burst {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+   }
+    50% {
+        transform: scale(0);
+        opacity: 1;
+   }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+   }
+}
+
+.land {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.block {
+    background: black;
+    width: 30px;
+    height: 40px;
+    float: left;
+    bottom: 0;
+}
+.block:after {
+    display: block;
+    border: red dotted 10px;
+    content: "";
+    height: 50px;
+    width: 8px;
+}
+.block:before {
+    display: block;
+    border: yellow dotted 10px;
+    content: "";
+    height: 90px;
+    width: 10px;
+    -webkit-animation: eswar 10s infinite alternate;
+}
+
+
+@-webkit-keyframes eswar
+{
+   0%{  border: yellow dotted 10px;}
+
+   10%{  border: orange dotted 20px;}
+
+   20%{  border:#32cd32 dotted 10px;}
+
+   30%{  border: blue dotted 15px;}
+
+   40%{  border: red dotted 10px;}
+
+   50%{  border: white dotted 20px;}
+
+   60%{  border: rgb(255, 0, 255) dotted 10px;}
+
+   70%{  border: rgb(0, 255, 251) dotted 15px;}
+
+   80%{  border:rgb(191, 255, 0)w dotted 10px;}
+
+    90%{  border: yellow dotted 20px;
+    }
+100%{  border:#32cd32 dotted 10px}
+
+
+
+}
+.p0 {
+    padding: 0.5rem;
+}
+.p1 {
+    padding: 1rem;
+}
+.p2 {
+    padding: 2rem;
+}
+.p3 {
+    padding: 3rem;
+}
+.p4 {
+    padding: 4rem 1rem;
+}
+.p5 {
+    padding: 5rem 2rem;
+}
+.title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    
+    text-align: center;
+    font-size: 10rem;
+    font-style: cursive;
+    animation: move-up 10s forwards;
+    text-shadow: yellow 0 0 30px,yellow 1px 0 10px;
+}
+ main
+@192210671
+192210671 committed on Nov 12, 2023 
+1 parent 261921f
+commit 6b6c86f
+Showing 1 changed file with 278 additions and 0 deletions.
+ 278 changes: 278 additions & 0 deletions278  
+diwaliwishes.html
+@@ -0,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<title>diwali wishes</title>
+
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<div class="container p1">
+
+
+
+  <div class="box m2 d2">
+
+
+
+    <div class="cracker solid a1"> </div>
+
+    <div class="cracker dotted a2"> </div>
+  </div>
+
+</div>
+
+<div class="container">
+
+  <div class="box m1">
+
+    <div class="cracker a3"></div>
+
+    <div class="cracker dotted a3"> </div>
+
+  </div>
+
+</div>
+
+<div class="container">
+
+
+
+  < class="box m1 d1">
+
+
+
+    <div class="cracker a2"></div>
+
+
+
+    <div class="cracker dotted a2"></div>
+
+  </
+  div>
+</
+div>
+
+<div class="container">
+
+
+
+
+
+  < class="box m3 d4">
+
+
+
+
+
+    <div class="cracker solid a2"></div>
+
+
+
+
+
+    <div class="cracker dotted a3"></div>
+
+
+
+
+  </
+  div>
+</
+div>
+
+<div class="container p1">
+
+  < class="box m2 d3">
+
+
+    <div class="cracker solid a1"></div>
+
+
+
+    <div class="cracker dotted a2"></div>
+
+
+  </
+  div>
+
+
+
+
+</
+div>
+
+<div class="container p2">
+
+
+
+  < class="box m1 d1">
+
+
+
+    <div class="cracker a1"></div>
+
+
+
+    <div class="cracker dotted a2"> </div>
+
+
+  </
+  div>
+
+
+</
+div>
+
+
+
+<div class="container p2">
+
+
+
+  < class="box m3 d2">
+
+
+    <div class="cracker dotted a4"></div>
+
+
+
+
+    <div class="cracker a2"></div>
+
+
+
+  </
+
+  div>
+
+
+</div>
+
+
+
+<div class="container p3">
+
+
+  < class="box m1 d2">
+
+
+    <div class="cracker a2"></div>
+
+
+
+    <div class="cracker a3"></div>
+
+  </
+  div>
+
+
+</
+div>
+
+<div class="container p3">
+
+
+  < class="box m2 d4">
+
+
+
+    <div class="cracker solid a2"></div>
+
+
+    <div class="cracker a1"></div>
+
+
+  </
+  div>
+
+
+
+  < class="box m1 d3">
+
+
+
+    <div class="cracker dotted a3"></div>
+
+
+    <div class="cracker dotted a1"> </div>
+
+
+  </
+  div>
+
+
+</
+div>
+
+
+
+< class="land">
+
+
+
+  <div class="block p1"></div>
+
+
+  <div class="block p2"></div>
+
+
+
+  <div class="block p1"></div>
+
+
+  <div class="block p3"></div>
+
+
+
+  <div class="block p4"></div>
+
+
+
+  <div class="block p0"></div>
+
+
+
+  <div class="block p1"></div>
+
+
+
+  <div class="block p4"></div>
+
+
+
+  <div class="block p1"></div>
+
+
+
+  <div class="block p2"></div>
+
+
+
+  <div class="block p0"></div>
+
+
+  <div class="block p2"></div>
+
+
+
+  <div class="block p5"></div>
+
+  <div class="block p3"></div>
+
+
+</
+div>
+
+
+<h1 class="title">Happy Diwali</h1>
+
+
+</body>
+
+
+
+</html>
+
+
+0 comments on commit 6b6c86f
+@192210671
+Comment
+ 
+Leave a comment
+ 
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Create diwaliwishes.html · 192210671/html-css@6b6c86f
